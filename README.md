@@ -98,3 +98,9 @@ These are the changes made in the vault’s default Obsidian and plugin settings
         - Removes the strikethrough on completed checkbox items for better readability.
     - `retrospect-dataview`
         - Enhances the appearance of the Dataview in weekly notes.
+
+# References
+
+- https://www.youtube.com/watch?v=jUmOKkJq8xw
+- https://www.youtube.com/watch?v=5k4LfCVY0yQ
+- https://www.youtube.com/watch?v=5Uxj0XgMp0k

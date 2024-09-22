@@ -104,3 +104,9 @@ vault 에서 변경한 옵시디언 기본 및 플러그인 설정들입니다.
 		- 체크 박스에서 완료 처리 된 항목에 줄이 생기는 것이 보기 불편하여 제거합니다.
 	- retrospect-dataview
 		- 주간 노트에서 dataview 를 좀 더 보기 좋게 만들어줍니다.
+
+# 참고
+
+- https://www.youtube.com/watch?v=jUmOKkJq8xw
+- https://www.youtube.com/watch?v=5k4LfCVY0yQ
+- https://www.youtube.com/watch?v=5Uxj0XgMp0k
