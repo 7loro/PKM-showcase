@@ -1,0 +1,7 @@
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"] {
+    text-decoration: none;
+}
+
+ul > li.task-list-item[data-task="x"], ul > li.task-list-item[data-task="X"] {
+    text-decoration: none;
+}

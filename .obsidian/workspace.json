@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "cfe52ca4b1f824a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c20babd2dafb62b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51397fff99f227be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README_ko.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d463ed99c5973799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2205feca5cddd025",
+    "type": "split",
+    "children": [
+      {
+        "id": "74d6f13937eb89c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38126d66eb0e80dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7507d32969347fd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "resources",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1b841b710d41988",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "240a952a037b0809",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f30f3fd11759b82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca641b4ebef3a6cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d128c4c10b5912d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbb5ed312d412fe1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6e7f2d37ec57e8f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "8e6e565b52480735",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "d463ed99c5973799",
+  "lastOpenFiles": [
+    "README_ko.md",
+    "README.md",
+    "journals/2024/2024-09-22.md",
+    "journals/2024/2024-W38.md",
+    "journals/2022/2022-09-22.md",
+    "journals/2023/2023-09-22.md",
+    "journals/2024/2024-09-19.md",
+    "journals/2024/2024-09-20.md",
+    "journals/2024/2024-09-21.md",
+    "resources/PARA 폴더 관리.md",
+    "templates/daily_journal.md",
+    "resources",
+    "templates/weekly_metadata_query.js",
+    "templates/journal_daily_same_date.js",
+    "templates/date_navigator_weekly.js",
+    "templates/date_navigator_daily.js",
+    "templates/scripts/weekly_metadata_query.js",
+    "templates/scripts/journal_daily_same_date.js",
+    "templates/scripts/date_navigator_weekly.js",
+    "templates/scripts/date_navigator_daily.js",
+    "templates/scripts",
+    "Welcome.md",
+    "templates/weekly_journal.md",
+    "templates/journal_daily_same_date.md",
+    "2024-W38.md"
+  ]
+}

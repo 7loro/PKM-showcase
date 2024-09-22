@@ -1,0 +1,96 @@
+---
+created: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+modified: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+tags: journal/2024
+date: {{date:YYYY-MM-DD}}
+cssclass: retrospect
+---
+# <% tp.file.title %>
+```dataviewjs
+const data = await dv.io.load("templates/date_navigator_weekly.js");
+dv.executeJs(data)
+```
+<% await tp.file.move("journals/2024/" + tp.file.title) %>
+```dataviewjs
+const DQL = `
+TABLE aliases
+FROM "journals/2024"
+WHERE aliases != null
+	AND file.day.year = number(substring(string(this.file.name), 0, 4))
+	AND file.day.weekyear = number(substring(string(this.file.name), 6, 8))
+SORT file.day DESC
+`
+dv.execute(DQL)
+dv.container.classList.add("retrospect")
+```
+
+## Highlights
+```dataviewjs
+const DQL = `
+TABLE highlight
+FROM "journals/2024"
+WHERE highlight != null
+	AND file.day.year = number(substring(string(this.file.name), 0, 4))
+	AND file.day.weekyear = number(substring(string(this.file.name), 6, 8))
+SORT file.day DESC
+`
+dv.execute(DQL)
+dv.container.classList.add("retrospect")
+
+```
+
+## Retrospect
+```dataviewjs
+const script = await dv.io.load("templates/weekly_metadata_query.js");
+eval(script);  // 스크립트 실행
+
+// 추출할 필드명 리스트
+const fieldNames = ["work", "personal", "movie", "book", "article", "video", "learn", "place", "emotion"];
+
+// 여러 필드 추출
+const results = await fetchMultipleFields(
+    "journals/2024",   // 디렉토리
+    "YYYY-MM-DD",          // 날짜 포맷
+    fieldNames,            // 필드명 리스트
+    "desc",                // 정렬 순서 (기본값은 "desc", 최근 순)
+    "monday"               // 한 주의 시작 (기본값은 "monday", 월요일. 일요일로 설정 원하면 "sunday")
+);
+
+// 필드별로 테이블을 생성하고 날짜별로 값을 출력
+fieldNames.forEach(fieldName => {
+    // 헤더 추가 (항상 표시)
+    dv.header(3, fieldName.charAt(0).toUpperCase() + fieldName.slice(1)); // 헤더 스타일 (### 형식)
+    dv.paragraph(''); // 빈 줄 추가
+
+    // 해당 필드의 데이터를 추출
+    let fieldResults = results
+        .filter(result => result[fieldName])  // 해당 필드가 있는 파일만 필터링
+        .map(result => [dv.fileLink(result.filePath, false), result[fieldName].join("<br>")]); // 날짜와 필드 값
+
+    // 데이터가 있을 경우 테이블 출력, 없을 경우 '내용 없음' 출력
+    if (fieldResults.length > 0) {
+        dv.table(["Date", fieldName.charAt(0).toUpperCase() + fieldName.slice(1)], fieldResults);
+    } else {
+        dv.paragraph("내용 없음");
+    }
+
+    dv.paragraph(''); // 테이블 아래에 빈 줄 추가
+});
+```
+## Notes created this week
+```dataview
+table file.ctime as "Created"
+from ""
+where file.cday.weekyear = this.file.day.weekyear
+and file.cday.year = this.file.day.year
+sort file.ctime desc
+```
+## Notes modified this week
+```dataview
+table file.mtime as "Modified"
+from ""
+where file.mday.weekyear = this.file.day.weekyear
+and file.mday.year = this.file.day.year
+and file.cday.weekyear != this.file.day.weekyear
+sort file.mtime desc
+```

@@ -1,0 +1,72 @@
+/* .retrospect .table-view-table th:nth-child(1) {
+    width: min-content;
+} */
+
+/* .retrospect .table-view-table td:nth-child(1) {
+    width: min-content;
+}
+
+
+
+.table-view-table > tbody > tr > td > ul {
+    vertical-align: top;
+} */
+
+/* --------------------------------------------   */
+/* Latex table-layout:                            */
+/* --------------------------------------------   */
+.retrospect .dataview-ul {
+    padding: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.retrospect thead th {
+    background-color: rgb(33, 40, 67) !important;
+    font-weight: 700;    
+    padding: 8px 9px 8px 9px;
+    font-size: 0.9em;
+}
+
+/* .retrospect tr:nth-child(even) {
+    background-color: #343b5a ;
+} */
+.retrospect tbody tr:hover td {
+    background-color: #606098;
+}
+.retrospect table {
+    border-collapse: separate;
+    border: solid #b3b3b3 1px;
+    border-radius: 6px;
+    border-spacing: 0px;
+}
+.retrospect table > tbody > tr > td:first-child {
+    width: 15%;
+}
+/* 마지막 두 개의 테이블의 첫 번째 th 요소 너비 조정 */
+.retrospect div.block-language-dataview:nth-last-child(-n+2) > table th:first-child {
+    width: 80%;
+}
+.retrospect table > tbody > tr > td {
+    border-bottom: 1px solid #ccccccbb;
+}
+.retrospect table > tbody > tr:last-child > td {
+    border-bottom: thin #ccccccbb;
+}
+.retrospect table th:first-of-type{
+    border-top-left-radius: 6px;
+}
+.retrospect table th:last-of-type{
+    border-top-right-radius: 6px;
+}
+.retrospect table tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+.retrospect table tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+/* table 안에 있는 li 속성들의 margin-inline-start 0px 로 설정 */
+.retrospect table li {
+    margin-inline-start: 0px;
+}
+/* --------------------------------------------   */
