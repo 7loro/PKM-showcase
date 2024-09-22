@@ -1,3 +1,5 @@
+[English](https://github.com/7loro/PKM-showcase) | [한글](https://github.com/7loro/PKM-showcase/blob/main/README_ko.md)
+
 # Overview
 
 This is a vault that demonstrates how to automate weekly notes based on daily notes in Obsidian.

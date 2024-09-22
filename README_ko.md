@@ -1,3 +1,5 @@
+[English](https://github.com/7loro/PKM-showcase) | [한글](https://github.com/7loro/PKM-showcase/blob/main/README_ko.md)
+
 # 개요
 
 Obsidian 에서 일일 노트를 기반으로 주간 노트 자동화를 하는 방법을 보여주는 vault 입니다.
