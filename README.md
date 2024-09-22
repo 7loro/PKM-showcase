@@ -4,14 +4,20 @@ This is a vault that demonstrates how to automate weekly notes based on daily no
 
 # Screenshots
 
-- Daily Notes
-- Weekly Notes
+<details>
+  <summary>Expand daily note screenshot</summary>
+  <img width=800 src="https://github.com/user-attachments/assets/7900a746-ab39-4d57-b6f3-55b5fc955954"/>
+</details>
+<details>
+  <summary>Expand weekly note screenshot</summary>
+  <img width=800 src="https://github.com/user-attachments/assets/f0fe67a5-6755-48ff-9f89-7083367cef8e"/>
+</details>
 
-# Key Features
+# Features
 
 - Daily Notes
     - Date Navigation
-        - Two days ago, one day ago, today, tomorrow, the day after tomorrow.
+        - Two days ago, one day ago, today, tomorrow.
         - Hover to quickly view or create a file if it doesn't exist.
             - The file is created in the daily note location, but you need to manually apply a template.
     - Weekly Note Shortcut
@@ -31,23 +37,23 @@ This is a vault that demonstrates how to automate weekly notes based on daily no
     - For `video` fields, it displays YouTube thumbnails, titles, and channel names.
     - Notes Created/Modified During the Week
 
-# Plugins Used
+# Plugins
 
 - Templates
     - Used for daily and weekly note templates.
-- Calendar
+- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
     - Used to set the start of the week as Monday.
-- Dataview
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
     - Displays notes created or modified on the specified date in the daily note.
     - Used in the weekly note to collect and display contents from daily notes of that week.
-- Periodic Notes
+- [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
     - Generates daily and weekly notes.
-- Tasks
+- [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
     - Task management.
-- Templater
+- [Templater](https://github.com/SilentVoid13/Templater)
     - Works with templates to set dates, times, and cursor positions.
 
-# Key Settings
+# Settings
 
 These are the changes made in the vault’s default Obsidian and plugin settings. Items marked as (optional) are personal preferences. All other settings are necessary for the setup.
 

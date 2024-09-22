@@ -3,13 +3,20 @@
 Obsidian 에서 일일 노트를 기반으로 주간 노트 자동화를 하는 방법을 보여주는 vault 입니다.
 
 # 스크린샷
-- 일일 노트
-- 주간 노트
+
+<details>
+  <summary>일일 노트 스크린샷 펼쳐보기</summary>
+  <img width=800 src="https://github.com/user-attachments/assets/7900a746-ab39-4d57-b6f3-55b5fc955954"/>
+</details>
+<details>
+  <summary>주간 노트 스크린샷 펼쳐보기</summary>
+  <img width=800 src="https://github.com/user-attachments/assets/f0fe67a5-6755-48ff-9f89-7083367cef8e"/>
+</details>
 
 # 주요 기능 설명
 - 일일 노트
 	- 날짜 네비게이션
-		- 이틀 전, 하루 전, 오늘, 내일, 모레
+		- 이틀 전, 하루 전, 오늘, 내일
 		- 마우스로 올려서 바로 보거나, 존재하지 않는 경우 파일을 바로 생성할 수 있습니다.
 			- 일일 노트 위치에 파일이 생성되지만, template 은 직접 추가해주어야 합니다.
 	- 주간 노트 바로가기
@@ -33,16 +40,16 @@ Obsidian 에서 일일 노트를 기반으로 주간 노트 자동화를 하는 
 
 - Templates
 	- 일일 노트, 주간 노트의 템플릿 기능을 위해 사용
-- Calendar
+- [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 	- 한 주의 시작 설정을 월요일로 설정하기 위해 사용
-- Dataview
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 	- 일일 노트에서 해당 날짜에 생성, 수정 된 노트 보여주기
 	- 주간 노트에서 해당 주차에 있는 일일 노트들의 내용들을 모아보여 주는 용도로 사용
-- Periodic Notes
+- [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
 	- 일일 노트, 주간 노트 생성
-- Tasks
+- [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
 	- 테스크 관리
-- Templater
+- [Templater](https://github.com/SilentVoid13/Templater)
 	- 템플릿과 함께 활용하여 날짜, 시간, 커서 위치를 설정합니다.
 
 # 주요 설정
